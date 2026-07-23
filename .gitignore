@@ -1,0 +1,29 @@
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 大体积打包文件
+*.zip
+
+# 视频（体积大，不适合放 git；如需上线请用外部存储或 Git LFS）
+*.mp4
+*.m4v
+*.mov
+*.webm
+
+# 简历 PDF（不公开）
+resume-*.pdf
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 其他
+Thumbs.db
+
+# 内容资产库与文案暂不纳入此仓库（体积过大）
+/内容资产库/
+/个人网站-详情页现有文案汇总.md
+/网站公共文案修改清单.md
