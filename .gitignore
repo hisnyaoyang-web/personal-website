@@ -6,12 +6,6 @@
 # 大体积打包文件
 *.zip
 
-# 视频（体积大，不适合放 git；如需上线请用外部存储或 Git LFS）
-*.mp4
-*.m4v
-*.mov
-*.webm
-
 # 简历 PDF（不公开）
 resume-*.pdf
 
