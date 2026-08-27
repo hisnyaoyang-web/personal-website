@@ -1,5 +1,6 @@
 const params=new URLSearchParams(location.search);const project=window.PROJECTS.find(item=>item.id===params.get('id'))||window.PROJECTS[0];
 document.title=`${project.title}｜杨仙瑶`;
+document.getElementById('lang-en')?.setAttribute('href','en/project.html'+location.search);
 const categoryNames={product:'AI 产品与体验',research:'数字人文与科研',operations:'内容、用户与产品运营'};
 const detailSections=window.DETAIL_COPY?.[project.id]||Object.values(window.STAR_STORIES[project.id]).map(text=>({title:'',text}));
 const metricMarkup=project.metrics.map(([value,label])=>`<div><b>${value}</b><span>${label}</span></div>`).join('');

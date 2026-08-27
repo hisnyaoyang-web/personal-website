@@ -9,3 +9,4 @@
 @media(max-width:560px){.hero-name-en{margin-bottom:30px}.education-list article{grid-template-columns:1fr;gap:8px;padding:20px 0}.education-list time{order:2;padding-top:0}.education-list h2{font-size:21px}}
 .audience{padding-top:110px}.view-summary{grid-template-columns:1fr;padding:30px 42px}.recommended{grid-template-columns:repeat(3,1fr);gap:24px}.rec-card{grid-template-columns:30px 1fr auto;align-content:start}
 @media(max-width:900px){.recommended{grid-template-columns:1fr}.view-summary{padding:24px 30px}}
+.lang-switch{font-weight:700;letter-spacing:.12em;color:var(--orange)}
