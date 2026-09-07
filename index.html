@@ -10,14 +10,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Noto+Serif+SC:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="styles.css?v=20260907-5"><link rel="stylesheet" href="home.css">
 </head>
 <body>
   <a class="skip" href="#main">跳到正文</a>
   <header class="header">
     <a class="brand" href="#about"><b>杨仙瑶</b><span>HSIENYAO YANG</span></a>
     <button class="menu" aria-expanded="false" aria-controls="nav">菜单</button>
-    <nav id="nav"><a href="#about">关于我</a><a href="#for-you">方向</a><a href="#library">项目与科研</a><a href="#journey">成长经历</a><a class="lang-switch" href="en/" lang="en" hreflang="en">EN</a><a class="nav-cta" href="#contact">联系我</a></nav>
+    <nav id="nav"><a href="#about">关于我</a><a href="#library">项目与科研</a><a href="#journey">成长经历</a><a class="lang-switch" href="en/" lang="en" hreflang="en">EN</a><a class="nav-cta" href="#contact">联系我</a></nav>
   </header>
 
   <main id="main">
@@ -30,7 +30,7 @@
         <div class="profile-notes" aria-label="个人简介">
           <p>📚 非主流中文系学生@WHU 大二｜Digital Humanities｜在大陆读书的台湾人｜跨文化研究｜AI+人文｜ESTJ-A</p>
           <p>👩🏻‍💻 Hackathon Builder｜多项赛事一等奖</p>
-          <p>🎨 《姑苏繁华图》数字活化展览项目落地中</p>
+          <p>🎨 《姑苏繁华图》数字活化已上线 · 牛津 DHOxSS 2026 海报竞赛 Winner</p>
           <p>🤓 多项竞赛负责人｜国家级、省级一等奖竞赛获奖者</p>
           <p>🧩 湖北校媒品牌部负责人｜武大自强新闻宣传中心摄影视讯部成员</p>
           <p>🙌🏻 内容创作者｜欢迎关注@Angela的两岸观察日记</p>
@@ -44,22 +44,18 @@
       <figure class="portrait reveal"><img src="assets/profile.jpg" alt="杨仙瑶"></figure>
     </section>
 
-    <section class="audience shell" id="for-you">
-      <p class="kicker reveal">01 · DIRECTION</p>
-      <div class="view-tabs reveal" role="tablist"><button class="active" data-view="product" role="tab" aria-selected="true">AI 产品</button><button data-view="operations" role="tab" aria-selected="false">AI 产品运营</button><button data-view="academic" role="tab" aria-selected="false">科研</button></div>
-      <div class="view-summary reveal"><div class="recommended" id="recommended"></div></div>
-    </section>
-
     <section class="library shell" id="library">
-      <div class="section-title reveal"><p class="kicker">02 · ALL WORK</p><h2>全部项目</h2><p>产品、研究与运营采用不同的叙事标准；二苏诗词同时归入产品和数字人文，但共用同一案例页。</p></div>
-      <div class="filters reveal" role="tablist"><button class="active" data-filter="all">全部</button><button data-filter="product">AI 产品与体验</button><button data-filter="research">数字人文与科研</button><button data-filter="operations">内容、用户与产品运营</button></div>
-      <div class="project-grid" id="project-grid"></div>
+      <div class="section-title reveal"><p class="kicker">01 · ALL WORK</p><h2>全部项目</h2><p>项目按产品体验、文化科技、用户研究与产品策略、内容运营与用户增长交叉归类；一个项目可进入多个方向，但共用同一案例页。</p></div>
+      <div class="filters reveal" role="tablist"><button data-filter="all">全部</button><button data-filter="product">AI 产品与交互体验</button><button data-filter="culture">数字人文与文化科技</button><button data-filter="strategy">用户研究与产品策略</button><button data-filter="growth">内容运营与用户增长</button></div>
+      <div class="project-grid" id="project-grid" aria-live="polite"><p class="project-filter-prompt">选择一个分类，查看对应项目。</p></div>
     </section>
 
     <section class="journey" id="journey"><div class="shell">
-      <div class="section-title reveal"><p class="kicker">03 · JOURNEY</p><h2>来时路</h2></div>
+      <div class="section-title reveal"><p class="kicker">02 · JOURNEY</p><h2>来时路</h2></div>
       <div class="timeline reveal">
-        <article><time>2026.05—至今</time><div><h3>腾讯 PCG · AIGC 产品「灵芽」</h3><p>校园大使 · 用户增长、创作者孵化与反馈闭环</p></div><a href="project.html?id=lingya">相关案例 →</a></article>
+        <article><time>2026.08</time><div><h3>牛津大学 DHOxSS 2026 · 数字人文暑期学校</h3><p>海报竞赛 Winner ·《姑苏繁华图》多角色交互系统</p></div><a href="project.html?id=gusu">相关案例 →</a></article>
+        <article><time>2026.07.22—07.26</time><div><h3>AdventureX 2026 黑客松 ·《惊梦：寻回杜丽娘》</h3><p>产品 · PICO 赛道最佳 Web 应用创作者（一等奖）· 米哈游赛道三等奖</p></div><a href="project.html?id=jingmeng">相关案例 →</a></article>
+        <article><time>2026.05—2026.08</time><div><h3>腾讯 PCG · AIGC 产品「灵芽」</h3><p>校园大使 · 用户增长、创作者孵化与反馈闭环</p></div><a href="project.html?id=lingya">相关案例 →</a></article>
         <article><time>2025—至今</time><div><h3>武汉大学文化遗产智能计算文科重点实验室</h3><p>科研实践 · 图像分割、智能标注与跨模态语义映射</p></div><a href="project.html?id=heritage">相关研究 →</a></article>
         <article><time>2025.06—至今</time><div><h3>湖北高校青年传媒协会</h3><p>主席团成员、品牌部部长 · 高校品牌与活动运营</p></div><span>EXPERIENCE</span></article>
         <article><time>2025.03—12</time><div><h3>武汉大学抖音俱乐部</h3><p>主编 · 内容策略、数据复盘与校园用户运营</p></div><a href="project.html?id=douyin">相关案例 →</a></article>
@@ -68,13 +64,13 @@
     </div></section>
 
     <section class="recognition shell">
-      <div class="section-title reveal"><p class="kicker">04 · RECOGNITION</p><h2>获奖</h2></div>
-      <div class="award-grid reveal"><article><b>01</b><h3>抖音 AI 创变者计划</h3><p>武汉大学站第一名 · 入选大区赛</p></article><article><b>02</b><h3>Nextstep 黑客松</h3><p>一等奖（第一名）</p></article><article><b>03</b><h3>全国大学生数字贸易大赛</h3><p>全国一等奖</p></article><article><b>04</b><h3>中国大学生计算机设计大赛</h3><p>中南赛区一等奖</p></article></div>
+      <div class="section-title reveal"><p class="kicker">03 · RECOGNITION</p><h2>获奖</h2></div>
+      <div class="award-grid reveal"><article><b>01</b><h3>牛津大学 DHOxSS 2026</h3><p>数字人文暑期学校海报竞赛 Winner（《姑苏繁华图》）</p></article><article><b>02</b><h3>AdventureX 2026 黑客松</h3><p>PICO 赛道最佳 Web 应用创作者（一等奖）· 米哈游赛道三等奖</p></article><article><b>03</b><h3>抖音 AI 创变者计划</h3><p>武汉大学站第一名 · 深圳大区赛 TOP10</p></article><article><b>04</b><h3>Nextstep 黑客松</h3><p>一等奖（第一名）</p></article><article><b>05</b><h3>全国大学生数字贸易大赛</h3><p>全国一等奖</p></article><article><b>06</b><h3>中国大学生计算机设计大赛</h3><p>中南赛区一等奖</p></article></div>
     </section>
 
-    <section class="contact" id="contact"><div class="shell contact-grid reveal"><div><p class="kicker">05 · CONTACT</p><h2>联系方式</h2></div><div><p>欢迎讨论 AI 产品、数字人文、用户研究、内容策略，以及文化与技术相遇的新方式。</p><a class="email" href="mailto:2024311111143@whu.edu.cn">2024311111143@whu.edu.cn ↗</a><p class="contact-meta">+86 177 6255 8695 · Wuhan, China</p></div></div></section>
+    <section class="contact" id="contact"><div class="shell contact-grid reveal"><div><p class="kicker">04 · CONTACT</p><h2>联系方式</h2></div><div><p>欢迎讨论 AI 产品、数字人文、用户研究、内容策略，以及文化与技术相遇的新方式。</p><a class="email" href="mailto:2024311111143@whu.edu.cn">2024311111143@whu.edu.cn ↗</a><p class="contact-meta">+86 177 6255 8695 · Wuhan, China</p></div></div></section>
   </main>
   <footer><span>杨仙瑶 · HSIENYAO YANG</span><span>© <i id="year"></i></span><a href="#about">BACK TO TOP ↑</a></footer>
-  <script src="project-data.js"></script><script src="script.js"></script>
+  <script src="project-data.js?v=20260907-5"></script><script src="script.js?v=20260907-5"></script>
 </body>
 </html>

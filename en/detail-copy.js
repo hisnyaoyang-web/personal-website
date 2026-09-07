@@ -1,4 +1,40 @@
 window.DETAIL_COPY = {
+  "qingdong": [
+    {
+      "title": "Situation | Background",
+      "text": "Even when prolonged scrolling or sitting causes neck, shoulder, or lower-back tension, users are reluctant to interrupt what they are doing. Conventional exercise tutorials require search, viewing, and imitation, while solo practice offers little feedback on range of motion or completion."
+    },
+    {
+      "title": "Task | Product Goal",
+      "text": "Qingdong set out to build a low-friction AI movement product for the Douyin feed: users could enter a mini program from an interest card and complete a guided, feedback-rich movement break in about 50 seconds without equipment or standing up."
+    },
+    {
+      "title": "Action | Product Design",
+      "text": "The project designed an end-to-end path from Feed card discovery and body-area selection through camera calibration, guided movement, completion, and sharing. Motion recognition was organized into calibration, target pose, hold timing, return to neutral, and automatic completion states, with recovery paths for denied permissions, lost framing, and recognition failure. Deliverables included a full PRD, four core mini-program screens, the Feed card interaction, and a working demo."
+    },
+    {
+      "title": "Result | Outcome",
+      "text": "Qingdong completed the loop from in-feed discovery and AI-guided movement to shareable results, earning a Top 10 place at the Douyin AI Innovators Hackathon Shenzhen Regional. It demonstrated how motion recognition can become an understandable, completable experience through low interaction cost, explicit feedback, and clear safety boundaries."
+    }
+  ],
+  "jingmeng": [
+    {
+      "title": "Background & Challenge",
+      "text": "Classical Chinese opera carries layered emotions and character relationships. Translating them into web and immersive experiences required balancing cultural expression, intuitive interaction, and a tightly limited development cycle."
+    },
+    {
+      "title": "Product Positioning & Experience Path",
+      "text": "As the team's product lead, I defined the product direction, mapped the core features and user journey, and moved the team toward a demonstrable delivery within the five-day hackathon."
+    },
+    {
+      "title": "Cultural Narrative & Team Delivery",
+      "text": "I structured the product around Du Liniang and the central narrative of The Peony Pavilion, coordinating the prototype, development, and presentation so the cultural theme, web experience, and judging criteria reinforced one another."
+    },
+    {
+      "title": "Results",
+      "text": "The project won PICO's Best Web App Creator award (First Prize) at AdventureX 2026 and also received Third Prize in the HoYoverse track; the experience is now live and playable in the browser."
+    }
+  ],
   "cyber-ancestor": [
     {
       "title": "Background & Challenge",
@@ -122,7 +158,7 @@ window.DETAIL_COPY = {
     },
     {
       "title": "Results",
-      "text": "All core modules are deployed and the experience is live at a domestic address; the current version keeps large-image loading, more perspectives, and internationalization on the roadmap."
+      "text": "All core modules are deployed and the experience is live. The poster “Narrative Perspectives in Digital Heritage: A Multi-Role Interactive System for ‘Prosperous Suzhou’” won the poster competition at the Digital Humanities @ Oxford Summer School 2026. The current version keeps large-image loading, more perspectives, and internationalization on the roadmap."
     }
   ],
   "lingya": [
@@ -158,7 +194,7 @@ window.DETAIL_COPY = {
     },
     {
       "title": "Results",
-      "text": "The account passed one million cumulative plays, monthly engagement rose 30%, and a repeatable campus content and community engine took shape."
+      "text": "The account passed one million cumulative plays with a top video at 878K, and monthly engagement rose 30%. The ByteDance cherry-blossom season event I planned drew 20,745 livestream views and an estimated on-site audience of 10,000+, and a repeatable campus content and community engine took shape."
     }
   ],
   "hi-acho": [
@@ -194,7 +230,7 @@ window.DETAIL_COPY = {
     },
     {
       "title": "Results",
-      "text": "A single Channels post passed 80K plays with 500% follower growth in seven days; a Xiaohongshu post passed 15K views, with 500% monthly follower growth."
+      "text": "A single Channels post reached 112,288 plays (top 99.55% of peer videos) with 700% follower growth in seven days; a Xiaohongshu post reached 17,938 views, and one note on classical Chinese literature was turned into a print-media story."
     }
   ]
 };
