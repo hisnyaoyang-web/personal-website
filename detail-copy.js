@@ -14,7 +14,7 @@ window.DETAIL_COPY = {
     },
     {
       "title": "Result｜项目成果",
-      "text": "「轻动」形成了从信息流内容触达、AI 动作跟练到成果分享的产品闭环，并进入抖音 AI 创变者计划黑客松深圳大区赛 TOP10。项目验证了 AI 识别能力在碎片化运动场景中的应用价值：通过降低操作成本、明确反馈节奏并建立安全边界，让技术能力转化为用户可以理解和完成的产品体验。"
+      "text": "「轻动」形成了从信息流内容触达、AI 动作跟练到成果分享的产品闭环，并从 1,300 余份参赛作品中突围，获抖音 AI 创变者计划 2026 黑客松全国 TOP10。项目验证了 AI 识别能力在碎片化运动场景中的应用价值：通过降低操作成本、明确反馈节奏并建立安全边界，让技术能力转化为用户可以理解和完成的产品体验。"
     }
   ],
   "jingmeng": [
@@ -158,7 +158,7 @@ window.DETAIL_COPY = {
     },
     {
       "title": "结果",
-      "text": "全部核心模块已完成并部署，用户可通过国内地址进入体验；作品《Narrative Perspectives in Digital Heritage: A Multi-Role Interactive System for “Prosperous Suzhou”》获牛津大学数字人文暑期学校（DHOxSS 2026）海报竞赛 Winner。当前版本保留了大图加载、视角数量与国际化等后续优化方向。"
+      "text": "全部核心模块已完成并部署，用户可通过国内地址进入体验；作品获 2026 首届大学生国际数字人文节“最佳技术应用作品”，并凭《Narrative Perspectives in Digital Heritage: A Multi-Role Interactive System for “Prosperous Suzhou”》获牛津大学数字人文暑期学校（DHOxSS 2026）海报竞赛 Winner。当前版本保留了大图加载、视角数量与国际化等后续优化方向。"
     }
   ],
   "lingya": [

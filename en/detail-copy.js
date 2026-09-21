@@ -14,7 +14,7 @@ window.DETAIL_COPY = {
     },
     {
       "title": "Result | Outcome",
-      "text": "Qingdong completed the loop from in-feed discovery and AI-guided movement to shareable results, earning a Top 10 place at the Douyin AI Innovators Hackathon Shenzhen Regional. It demonstrated how motion recognition can become an understandable, completable experience through low interaction cost, explicit feedback, and clear safety boundaries."
+      "text": "Qingdong completed the loop from in-feed discovery and AI-guided movement to shareable results, placing National Top 10 among more than 1,300 entries in the Douyin AI Innovators Hackathon 2026. It demonstrated how motion recognition can become an understandable, completable experience through low interaction cost, explicit feedback, and clear safety boundaries."
     }
   ],
   "jingmeng": [
@@ -158,7 +158,7 @@ window.DETAIL_COPY = {
     },
     {
       "title": "Results",
-      "text": "All core modules are deployed and the experience is live. The poster “Narrative Perspectives in Digital Heritage: A Multi-Role Interactive System for ‘Prosperous Suzhou’” won the poster competition at the Digital Humanities @ Oxford Summer School 2026. The current version keeps large-image loading, more perspectives, and internationalization on the roadmap."
+      "text": "All core modules are deployed and the experience is live. The project was named Best Technical Application at the inaugural 2026 International Digital Humanities Festival for University Students, while the poster “Narrative Perspectives in Digital Heritage: A Multi-Role Interactive System for ‘Prosperous Suzhou’” won at Digital Humanities @ Oxford Summer School 2026. The current version keeps large-image loading, more perspectives, and internationalization on the roadmap."
     }
   ],
   "lingya": [
